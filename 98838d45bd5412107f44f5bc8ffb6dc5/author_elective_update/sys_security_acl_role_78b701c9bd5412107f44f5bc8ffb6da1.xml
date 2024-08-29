@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2024-08-26 18:41:42</sys_created_on>
+        <sys_id>78b701c9bd5412107f44f5bc8ffb6da1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_carbon_cre_0_carbon_credit_request.x_snc_carbon_cre_0.provider</sys_name>
+        <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_security_acl display_value="x_snc_carbon_cre_0_carbon_credit_request">acb701c9bd5412107f44f5bc8ffb6d9e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_78b701c9bd5412107f44f5bc8ffb6da1</sys_update_name>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2024-08-26 18:41:42</sys_updated_on>
+        <sys_user_role display_value="x_snc_carbon_cre_0.provider" name="x_snc_carbon_cre_0.provider">e0b701c9bd5412107f44f5bc8ffb6d4b</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</application>
+        <file_path/>
+        <instance_id>31cabffb1b4896502a8a6288bd4bcb56</instance_id>
+        <instance_name>van-aug-2897-003</instance_name>
+        <name>sys_security_acl_role_78b701c9bd5412107f44f5bc8ffb6da1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>praveen</sys_created_by><sys_created_on>2024-08-26 18:41:42</sys_created_on><sys_id>78b701c9bd5412107f44f5bc8ffb6da1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_carbon_cre_0_carbon_credit_request.x_snc_carbon_cre_0.provider</sys_name><sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package><sys_policy/><sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope><sys_security_acl display_value="x_snc_carbon_cre_0_carbon_credit_request">acb701c9bd5412107f44f5bc8ffb6d9e</sys_security_acl><sys_update_name>sys_security_acl_role_78b701c9bd5412107f44f5bc8ffb6da1</sys_update_name><sys_updated_by>praveen</sys_updated_by><sys_updated_on>2024-08-26 18:41:42</sys_updated_on><sys_user_role display_value="x_snc_carbon_cre_0.provider" name="x_snc_carbon_cre_0.provider">e0b701c9bd5412107f44f5bc8ffb6d4b</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-4636943</payload_hash>
+        <record_name>x_snc_carbon_cre_0_carbon_credit_request.x_snc_carbon_cre_0.provider</record_name>
+        <reverted_from/>
+        <source>50838d45bd5412107f44f5bc8ffb6dc8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2024-08-26 18:41:42</sys_created_on>
+        <sys_id>fcb701c9bd5412107f44f5bc8ffb6da3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1918ffe723e0000001</sys_recorded_at>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2024-08-26 18:41:42</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>34b701c98a541210b97a9884db1c19a3</update_guid>
+        <update_guid_history>34b701c98a541210b97a9884db1c19a3:-4636943</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_carbon_cre_0_carbon_credit_request.x_snc_carbon_cre_0.provider">fe2cc541bd9412107f44f5bc8ffb6d96</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2024-08-26 19:01:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>6b4559979ad94704be6cc44875408e10</sys_id>
+        <sys_metadata>78b701c9bd5412107f44f5bc8ffb6da1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_carbon_cre_0_carbon_credit_request.x_snc_carbon_cre_0.provider</sys_name>
+        <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+        <sys_parent display_value="">acb701c9bd5412107f44f5bc8ffb6d9e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_scope_delete display_value="">96e445d61a2c441aad22ffdfe1e92d64</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_78b701c9bd5412107f44f5bc8ffb6da1</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_78b701c9bd5412107f44f5bc8ffb6da1">fcb701c9bd5412107f44f5bc8ffb6da3</sys_update_version>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2024-08-26 19:01:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

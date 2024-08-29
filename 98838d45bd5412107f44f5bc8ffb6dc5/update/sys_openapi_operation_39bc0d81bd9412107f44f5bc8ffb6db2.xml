@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_openapi_operation">
+    <sys_openapi_operation action="INSERT_OR_UPDATE">
+        <complex_object_ids>39bc0d81bd9412107f44f5bc8ffb6db0,e5bc0d81bd9412107f44f5bc8ffb6dae,6dbc8981bd9412107f44f5bc8ffb6d18</complex_object_ids>
+        <deprecated>false</deprecated>
+        <http_method>get</http_method>
+        <name>Provides information on current server status</name>
+        <openapi display_value="ArcGIS Enterprise Api Documentation - 1.0.0">d9bc8981bd9412107f44f5bc8ffb6d15</openapi>
+        <path>/v1/heartbeat</path>
+        <serialized_operation>{"fName":"Provides information on current server status","fOperationId":"getHeartbeat","fPath":"/v1/heartbeat","fHttpMethod":"GET","fDeprecated":false,"fResponses":[{"fStatusCode":"200","fDescription":"Expected response to a valid request","fContents":[{"fMediaType":"application/json","fSchema":{"fName":"output3942222068","fReferencedName":"#/components/schemas/ArcGisResponse","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fProperties":[],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}}],"fHeaders":[]},{"fStatusCode":"401","fDescription":"The user is not authorized for this request","fContents":[{"fMediaType":"application/json","fSchema":{"fName":"output7786785369","fReferencedName":"#/components/schemas/ArcGisError","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fProperties":[],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}}],"fHeaders":[]},{"fStatusCode":"500","fDescription":"A server-side failure occurred","fContents":[{"fMediaType":"application/json","fSchema":{"fName":"output6233666135","fReferencedName":"#/components/schemas/ArcGisError","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fProperties":[],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}}],"fHeaders":[]}],"fParameters":[]}</serialized_operation>
+        <sys_class_name>sys_openapi_operation</sys_class_name>
+        <sys_created_by>ashish</sys_created_by>
+        <sys_created_on>2024-08-26 19:03:38</sys_created_on>
+        <sys_id>39bc0d81bd9412107f44f5bc8ffb6db2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Provides information on current server status</sys_name>
+        <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_update_name>sys_openapi_operation_39bc0d81bd9412107f44f5bc8ffb6db2</sys_update_name>
+        <sys_updated_by>ashish</sys_updated_by>
+        <sys_updated_on>2024-08-26 19:03:38</sys_updated_on>
+    </sys_openapi_operation>
+</record_update>

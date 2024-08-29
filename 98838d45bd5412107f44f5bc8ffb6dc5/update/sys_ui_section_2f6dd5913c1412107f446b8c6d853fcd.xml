@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Project Summary" section_id="2f6dd5913c1412107f446b8c6d853fcd" sys_domain="global" table="x_snc_carbon_cre_0_carbon_credit_request" version="3" view="workspace-carbon-my-requests-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_name</element>
+            <position>0</position>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2024-08-27 14:55:30</sys_created_on>
+            <sys_id>708dd9913c1412107f446b8c6d853f7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Summary" display_value="Project Summary" name="x_snc_carbon_cre_0_carbon_credit_request" sys_domain="global" view="74ef81d99f901210a7fbbfc5cbc7b6f7">2f6dd5913c1412107f446b8c6d853fcd</sys_ui_section>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2024-08-27 14:55:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>project_description</element>
+            <position>1</position>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2024-08-27 14:55:30</sys_created_on>
+            <sys_id>748dd9913c1412107f446b8c6d853f7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Summary" display_value="Project Summary" name="x_snc_carbon_cre_0_carbon_credit_request" sys_domain="global" view="74ef81d99f901210a7fbbfc5cbc7b6f7">2f6dd5913c1412107f446b8c6d853fcd</sys_ui_section>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2024-08-27 14:55:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cc_suppliers</element>
+            <position>2</position>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2024-08-27 14:55:30</sys_created_on>
+            <sys_id>788dd9913c1412107f446b8c6d853f7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Summary" display_value="Project Summary" name="x_snc_carbon_cre_0_carbon_credit_request" sys_domain="global" view="74ef81d99f901210a7fbbfc5cbc7b6f7">2f6dd5913c1412107f446b8c6d853fcd</sys_ui_section>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2024-08-27 14:55:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>3</position>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2024-08-27 14:55:30</sys_created_on>
+            <sys_id>7c8dd9913c1412107f446b8c6d853f7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Summary" display_value="Project Summary" name="x_snc_carbon_cre_0_carbon_credit_request" sys_domain="global" view="74ef81d99f901210a7fbbfc5cbc7b6f7">2f6dd5913c1412107f446b8c6d853fcd</sys_ui_section>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2024-08-27 14:55:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>4</position>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2024-08-27 14:55:30</sys_created_on>
+            <sys_id>708dd9913c1412107f446b8c6d853f80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Project Summary" display_value="Project Summary" name="x_snc_carbon_cre_0_carbon_credit_request" sys_domain="global" view="74ef81d99f901210a7fbbfc5cbc7b6f7">2f6dd5913c1412107f446b8c6d853fcd</sys_ui_section>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2024-08-27 14:55:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Project Summary</caption>
+            <header>false</header>
+            <name>x_snc_carbon_cre_0_carbon_credit_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>praveen</sys_created_by>
+            <sys_created_on>2024-08-27 14:55:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f6dd5913c1412107f446b8c6d853fcd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_snc_carbon_cre_0_carbon_credit_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+            <sys_update_name>sys_ui_section_2f6dd5913c1412107f446b8c6d853fcd</sys_update_name>
+            <sys_updated_by>praveen</sys_updated_by>
+            <sys_updated_on>2024-08-27 14:55:30</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Carbon My Requests 0" name="workspace-carbon-my-requests-0">74ef81d99f901210a7fbbfc5cbc7b6f7</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

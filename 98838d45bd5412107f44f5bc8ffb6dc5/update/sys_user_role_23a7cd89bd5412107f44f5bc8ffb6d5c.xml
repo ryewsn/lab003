@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Carbon Credit Reviewer</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_snc_carbon_cre_0.reviewer</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>reviewer</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>praveen</sys_created_by>
+        <sys_created_on>2024-08-26 18:41:38</sys_created_on>
+        <sys_id>23a7cd89bd5412107f44f5bc8ffb6d5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_carbon_cre_0.reviewer</sys_name>
+        <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_update_name>sys_user_role_23a7cd89bd5412107f44f5bc8ffb6d5c</sys_update_name>
+        <sys_updated_by>praveen</sys_updated_by>
+        <sys_updated_on>2024-08-26 18:41:38</sys_updated_on>
+    </sys_user_role>
+</record_update>

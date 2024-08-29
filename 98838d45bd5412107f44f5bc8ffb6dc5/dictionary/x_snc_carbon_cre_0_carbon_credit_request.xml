@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="aa7c4181bd9412107f44f5bc8ffb6de3" extends="task" label="Carbon Credit Request" max_length="40" name="x_snc_carbon_cre_0_carbon_credit_request" type="collection">
+        <element label="CC Suppliers" max_length="1024" name="cc_suppliers" reference="x_snc_carbon_cre_0_carbon_credit_supplier" type="glide_list"/>
+        <element label="Project Description" max_length="40" name="project_description" type="string"/>
+        <element label="Project Name" max_length="40" name="project_name" type="string"/>
+        <element label="Supplier ID" max_length="1024" name="supplier_id" reference="x_snc_carbon_cre_0_carbon_credit_supplier" type="glide_list"/>
+        <element label="Supplier ID Single" max_length="40" name="supplier_id_single" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Carbon Credit Tracker App Config">1389690d3518121038a5eb13030cf0b6</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings/>
+        <macroponent display_value="Visualization designer">2d5dcc29c3110110d938e4788940dd8f</macroponent>
+        <macroponent_config/>
+        <name>Visualization Designer Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Visualization Designer">5789690de6181210ed2cff4ef73bd8ab</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>dennis</sys_created_by>
+        <sys_created_on>2024-08-26 21:09:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1f89690ded181210c1d529ac8f39e3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visualization Designer Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_update_name>sys_ux_screen_1f89690ded181210c1d529ac8f39e3a1</sys_update_name>
+        <sys_updated_by>dennis</sys_updated_by>
+        <sys_updated_on>2024-08-26 21:09:38</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=1f89690ded181210c1d529ac8f39e3a1"/>
+</record_update>

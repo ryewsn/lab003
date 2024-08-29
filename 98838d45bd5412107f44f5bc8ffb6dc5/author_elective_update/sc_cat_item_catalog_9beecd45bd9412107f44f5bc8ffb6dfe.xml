@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Credit Request">f04d89c1bd9412107f44f5bc8ffb6d45</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>james</sys_created_by>
+        <sys_created_on>2024-08-26 19:13:17</sys_created_on>
+        <sys_id>9beecd45bd9412107f44f5bc8ffb6dfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Credit Request</sys_name>
+        <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_9beecd45bd9412107f44f5bc8ffb6dfe</sys_update_name>
+        <sys_updated_by>james</sys_updated_by>
+        <sys_updated_on>2024-08-26 19:13:17</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</application>
+        <file_path/>
+        <instance_id>31cabffb1b4896502a8a6288bd4bcb56</instance_id>
+        <instance_name>van-aug-2897-003</instance_name>
+        <name>sc_cat_item_catalog_9beecd45bd9412107f44f5bc8ffb6dfe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Credit Request">f04d89c1bd9412107f44f5bc8ffb6d45</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>james</sys_created_by><sys_created_on>2024-08-26 19:13:17</sys_created_on><sys_id>9beecd45bd9412107f44f5bc8ffb6dfe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Credit Request</sys_name><sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package><sys_policy/><sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope><sys_update_name>sc_cat_item_catalog_9beecd45bd9412107f44f5bc8ffb6dfe</sys_update_name><sys_updated_by>james</sys_updated_by><sys_updated_on>2024-08-26 19:13:17</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1541120482</payload_hash>
+        <record_name>Service Catalog.Credit Request</record_name>
+        <reverted_from/>
+        <source>50838d45bd5412107f44f5bc8ffb6dc8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james</sys_created_by>
+        <sys_created_on>2024-08-26 19:13:18</sys_created_on>
+        <sys_id>9bee0185bd9412107f44f5bc8ffb6d01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191901b5d290000001</sys_recorded_at>
+        <sys_updated_by>james</sys_updated_by>
+        <sys_updated_on>2024-08-26 19:13:18</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>1fee018532941210eda874a892917100</update_guid>
+        <update_guid_history>1fee018532941210eda874a892917100:-1541120482</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Credit Request">fd711949bd9412107f44f5bc8ffb6d0a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james</sys_created_by>
+        <sys_created_on>2024-08-26 19:24:23</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>0491120e7b954734879a325161059a44</sys_id>
+        <sys_metadata>9beecd45bd9412107f44f5bc8ffb6dfe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Credit Request</sys_name>
+        <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+        <sys_parent display_value="Credit Request">f04d89c1bd9412107f44f5bc8ffb6d45</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_scope_delete display_value="">96e445d61a2c441aad22ffdfe1e92d64</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_9beecd45bd9412107f44f5bc8ffb6dfe</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_9beecd45bd9412107f44f5bc8ffb6dfe">9bee0185bd9412107f44f5bc8ffb6d01</sys_update_version>
+        <sys_updated_by>james</sys_updated_by>
+        <sys_updated_on>2024-08-26 19:24:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

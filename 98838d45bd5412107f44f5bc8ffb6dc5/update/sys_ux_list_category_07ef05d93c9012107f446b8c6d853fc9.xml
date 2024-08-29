@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <configuration display_value="Carbon My Requests_menu_config">cfef05d93c9012107f446b8c6d853fc6</configuration>
+        <description/>
+        <order>100</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>james</sys_created_by>
+        <sys_created_on>2024-08-27 13:56:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>07ef05d93c9012107f446b8c6d853fc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Carbon Credit Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_update_name>sys_ux_list_category_07ef05d93c9012107f446b8c6d853fc9</sys_update_name>
+        <sys_updated_by>james</sys_updated_by>
+        <sys_updated_on>2024-08-27 13:56:08</sys_updated_on>
+        <title>Carbon Credit Request</title>
+    </sys_ux_list_category>
+</record_update>

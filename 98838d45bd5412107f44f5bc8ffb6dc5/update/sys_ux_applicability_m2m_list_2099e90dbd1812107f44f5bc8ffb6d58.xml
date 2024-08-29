@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Audience for app carbon-credit-tracker">9499a90dbd1812107f44f5bc8ffb6dc5</applicability>
+        <list display_value="All">6c99e90dbd1812107f44f5bc8ffb6d55</list>
+        <order>100</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>dennis</sys_created_by>
+        <sys_created_on>2024-08-26 21:09:42</sys_created_on>
+        <sys_id>2099e90dbd1812107f44f5bc8ffb6d58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_2099e90dbd1812107f44f5bc8ffb6d58</sys_update_name>
+        <sys_updated_by>dennis</sys_updated_by>
+        <sys_updated_on>2024-08-26 21:09:42</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+</record_update>

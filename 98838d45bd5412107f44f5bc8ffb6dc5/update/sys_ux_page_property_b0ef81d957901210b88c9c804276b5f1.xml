@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>sys_ux_applicability sys_id for Workspace audience</description>
+        <name>wbApplicabilityConfigId</name>
+        <page display_value="Carbon My Requests">05efc1d9d790121091ab1bd0ef22db01</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>james</sys_created_by>
+        <sys_created_on>2024-08-27 13:56:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>b0ef81d957901210b88c9c804276b5f1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>wbApplicabilityConfigId</sys_name>
+        <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_update_name>sys_ux_page_property_b0ef81d957901210b88c9c804276b5f1</sys_update_name>
+        <sys_updated_by>james</sys_updated_by>
+        <sys_updated_on>2024-08-27 13:56:06</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_snc_carbon_cre_0.05efc1d9d790121091ab1bd0ef22db01.root.wbApplicabilityConfigId</unique_name>
+        <value>eeef05d93c9012107f446b8c6d853f33</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=b0ef81d957901210b88c9c804276b5f1"/>
+</record_update>

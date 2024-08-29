@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <internal_name>kap__rfp_process_flow</internal_name>
+        <label_cache>[{"name":"Created_1.current.opened_by.first_name","label":"Trigger - Record Created➛Carbon Credit Request Record➛Opened by➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created_1.current.opened_by.email","label":"Trigger - Record Created➛Carbon Credit Request Record➛Opened by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current","label":"Trigger - Record Created➛Carbon Credit Request Record","reference":"x_snc_carbon_cre_0_carbon_credit_request","reference_display":"Carbon Credit Request","type":"reference","base_type":"reference","attributes":{}},{"name":"4b36e238-23a9-49ca-af1f-722581df790b.item.user_id","label":"1 - For Each➛Carbon Credit Supplier Record➛User ID","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_carbon_cre_0_carbon_credit_supplier","column_name":"user_id"},{"name":"Created_1.current.cc_suppliers","label":"Trigger - Record Created➛Carbon Credit Request Record➛CC Suppliers","reference":"x_snc_carbon_cre_0_carbon_credit_supplier","reference_display":"Carbon Credit Supplier","type":"glide_list","base_type":"glide_list","parent_table_name":"x_snc_carbon_cre_0_carbon_credit_request","column_name":"cc_suppliers"},{"name":"4b36e238-23a9-49ca-af1f-722581df790b.item.contact","label":"1 - For Each➛CC Suppliers Record➛Contact","reference":"","reference_display":"Contact","type":"string","base_type":"string","parent_table_name":"x_snc_carbon_cre_0_carbon_credit_supplier","column_name":"contact"},{"name":"4b36e238-23a9-49ca-af1f-722581df790b.item.name","label":"1 - For Each➛CC Suppliers Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_snc_carbon_cre_0_carbon_credit_supplier","column_name":"name"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Carbon Credit Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_snc_carbon_cre_0_carbon_credit_request","column_name":"number"},{"name":"7be00a61-e261-4168-a08b-079d12fcc075.Count","label":"6 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>KAP - RFP Process Flow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:10:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1b131d113cd012107f446b8c6d853f7d</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>KAP - RFP Process Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_update_name>sys_hub_flow_1b131d113cd012107f446b8c6d853f7d</sys_update_name>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 15:17:36</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=1b131d113cd012107f446b8c6d853f7d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1b131d113cd012107f446b8c6d853f7d"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=1b131d113cd012107f446b8c6d853f7d^sys_idNOT IN3543d1513cd012107f446b8c6d853f77"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="KAP - RFP Process Flow">1b131d113cd012107f446b8c6d853f7d</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:10:47</sys_created_on>
+        <sys_id>3543d1513cd012107f446b8c6d853f77</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 15:17:35</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3543d1513cd012107f446b8c6d853f77"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3543d1513cd012107f446b8c6d853f77</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:10:47</sys_created_on>
+        <sys_id>7943d1513cd012107f446b8c6d853f78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:10:47</sys_updated_on>
+        <value>x_snc_carbon_cre_0_carbon_credit_request</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3543d1513cd012107f446b8c6d853f77</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:10:47</sys_created_on>
+        <sys_id>b143d1513cd012107f446b8c6d853f78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:10:47</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=1b131d113cd012107f446b8c6d853f7d"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=1b131d113cd012107f446b8c6d853f7d^sys_idNOT INd3131d113cd012107f446b8c6d853f7e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>1b131d113cd012107f446b8c6d853f7d</id>
+        <name>KAP - RFP Process Flow</name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:10:04</sys_created_on>
+        <sys_id>d3131d113cd012107f446b8c6d853f7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:10:04</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=d3131d113cd012107f446b8c6d853f7e"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=1b131d113cd012107f446b8c6d853f7d^sys_idNOT INa94311513cd012107f446b8c6d853f88,e94311513cd012107f446b8c6d853f84"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="KAP - RFP Process Flow">1b131d113cd012107f446b8c6d853f7d</model>
+        <model_id>1b131d113cd012107f446b8c6d853f7d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_1b131d113cd012107f446b8c6d853f7d</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:10:46</sys_created_on>
+        <sys_id>a94311513cd012107f446b8c6d853f88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:10:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a94311513cd012107f446b8c6d853f88"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="KAP - RFP Process Flow">1b131d113cd012107f446b8c6d853f7d</model>
+        <model_id>1b131d113cd012107f446b8c6d853f7d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_1b131d113cd012107f446b8c6d853f7d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:10:46</sys_created_on>
+        <sys_id>e94311513cd012107f446b8c6d853f84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:10:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e94311513cd012107f446b8c6d853f84"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=1b131d113cd012107f446b8c6d853f7d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1b131d113cd012107f446b8c6d853f7d"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=1b131d113cd012107f446b8c6d853f7d^sys_idNOT IN0d0cd1113c1412107f446b8c6d853f50,30e3d1913cd012107f446b8c6d853fc0,3324d9913cd012107f446b8c6d853f72,373599153cd012107f446b8c6d853f85,a892215d3c1412107f446b8c6d853fe7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="KAP - RFP Process Flow">1b131d113cd012107f446b8c6d853f7d</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:48:57</sys_created_on>
+        <sys_id>0d0cd1113c1412107f446b8c6d853f50</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 15:17:35</sys_updated_on>
+        <ui_id>78a7c891-cc79-43cf-b9d2-05de53380481</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0d0cd1113c1412107f446b8c6d853f50"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0d0cd1113c1412107f446b8c6d853f50</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:48:57</sys_created_on>
+        <sys_id>c90cd1113c1412107f446b8c6d853f53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:48:57</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0d0cd1113c1412107f446b8c6d853f50"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>0d0cd1113c1412107f446b8c6d853f50</id>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:48:57</sys_created_on>
+        <sys_id>850cd1113c1412107f446b8c6d853f53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:48:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p&gt;&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:95eefd8b-7278-4906-b95d-48f29e60858a}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:95eefd8b-7278-4906-b95d-48f29e60858a}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Carbon Credit Request Record &amp;gt; Opened by &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_95eefd8b-7278-4906-b95d-48f29e60858a" class="transform_function_facade no_transform_applied"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;, RFP Tasks have been created.&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>0d0cd1113c1412107f446b8c6d853f50</id>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:48:57</sys_created_on>
+        <sys_id>490cd1113c1412107f446b8c6d853f53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:48:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.opened_by.first_name}}, RFP Tasks have been created for {{Created_1.current.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>0d0cd1113c1412107f446b8c6d853f50</id>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:48:57</sys_created_on>
+        <sys_id>cd0cd1113c1412107f446b8c6d853f52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:48:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.opened_by.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0d0cd1113c1412107f446b8c6d853f50"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0d0cd1113c1412107f446b8c6d853f50"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="KAP - RFP Process Flow">1b131d113cd012107f446b8c6d853f7d</flow>
+        <order>2</order>
+        <parent_ui_id>4b36e238-23a9-49ca-af1f-722581df790b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:13:27</sys_created_on>
+        <sys_id>30e3d1913cd012107f446b8c6d853fc0</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 15:17:35</sys_updated_on>
+        <ui_id>44cec8bd-d01b-49fc-a1cd-48342d0315a6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=30e3d1913cd012107f446b8c6d853fc0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>30e3d1913cd012107f446b8c6d853fc0</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:13:27</sys_created_on>
+        <sys_id>81e3d1913cd012107f446b8c6d853fc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:13:27</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=30e3d1913cd012107f446b8c6d853fc0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>30e3d1913cd012107f446b8c6d853fc0</id>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:13:27</sys_created_on>
+        <sys_id>4de3d1913cd012107f446b8c6d853fc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:13:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Please complete Questioneer for&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:684fa6b6-64a2-4eb4-a6e0-408193b01ee6}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:684fa6b6-64a2-4eb4-a6e0-408193b01ee6}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Carbon Credit Request Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_684fa6b6-64a2-4eb4-a6e0-408193b01ee6" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>30e3d1913cd012107f446b8c6d853fc0</id>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:13:27</sys_created_on>
+        <sys_id>01e3d1913cd012107f446b8c6d853fc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:13:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{4b36e238-23a9-49ca-af1f-722581df790b.item.name}}, you have a task.</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>30e3d1913cd012107f446b8c6d853fc0</id>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:13:27</sys_created_on>
+        <sys_id>89e3d1913cd012107f446b8c6d853fc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:13:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{4b36e238-23a9-49ca-af1f-722581df790b.item.contact}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=30e3d1913cd012107f446b8c6d853fc0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=30e3d1913cd012107f446b8c6d853fc0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="KAP - RFP Process Flow">1b131d113cd012107f446b8c6d853f7d</flow>
+        <order>3</order>
+        <parent_ui_id>4b36e238-23a9-49ca-af1f-722581df790b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:14:45</sys_created_on>
+        <sys_id>3324d9913cd012107f446b8c6d853f72</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 15:17:35</sys_updated_on>
+        <ui_id>eeeb1bef-7d45-47e5-a7e2-4bc3aecf5f9a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3324d9913cd012107f446b8c6d853f72"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3324d9913cd012107f446b8c6d853f72</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:14:45</sys_created_on>
+        <sys_id>b324d9913cd012107f446b8c6d853f80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:14:45</sys_updated_on>
+        <value>x_snc_carbon_cre_0_carbon_credit_question</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3324d9913cd012107f446b8c6d853f72"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>3324d9913cd012107f446b8c6d853f72</id>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:14:45</sys_created_on>
+        <sys_id>3324d9913cd012107f446b8c6d853f80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:14:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>assigned_to={{4b36e238-23a9-49ca-af1f-722581df790b.item.user_id}}^cc_request_id={{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>3324d9913cd012107f446b8c6d853f72</id>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:14:45</sys_created_on>
+        <sys_id>7f24d9913cd012107f446b8c6d853f7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:14:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3324d9913cd012107f446b8c6d853f72"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3324d9913cd012107f446b8c6d853f72"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="KAP - RFP Process Flow">1b131d113cd012107f446b8c6d853f7d</flow>
+        <order>6</order>
+        <parent_ui_id>f2f3cdce-02f4-4de6-aa18-b5a0b0f9cc32</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:19:23</sys_created_on>
+        <sys_id>373599153cd012107f446b8c6d853f85</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 15:17:35</sys_updated_on>
+        <ui_id>7be00a61-e261-4168-a08b-079d12fcc075</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=373599153cd012107f446b8c6d853f85"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>373599153cd012107f446b8c6d853f85</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:19:23</sys_created_on>
+        <sys_id>b73599153cd012107f446b8c6d853f87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:19:23</sys_updated_on>
+        <value>x_snc_carbon_cre_0_carbon_credit_question</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=373599153cd012107f446b8c6d853f85"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>373599153cd012107f446b8c6d853f85</id>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:19:23</sys_created_on>
+        <sys_id>733599153cd012107f446b8c6d853f87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:19:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>cc_request_id={{Created_1.current}}^stateIN-5,1,2</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>373599153cd012107f446b8c6d853f85</id>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:19:23</sys_created_on>
+        <sys_id>373599153cd012107f446b8c6d853f87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:19:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=373599153cd012107f446b8c6d853f85"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=373599153cd012107f446b8c6d853f85"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="KAP - RFP Process Flow">1b131d113cd012107f446b8c6d853f7d</flow>
+        <order>9</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 15:17:36</sys_created_on>
+        <sys_id>a892215d3c1412107f446b8c6d853fe7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 15:17:36</sys_updated_on>
+        <ui_id>a0a1c3a3-b39a-40c5-9140-cb43a7925c15</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a892215d3c1412107f446b8c6d853fe7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a892215d3c1412107f446b8c6d853fe7</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 15:17:36</sys_created_on>
+        <sys_id>6892215d3c1412107f446b8c6d853fea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 15:17:36</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a892215d3c1412107f446b8c6d853fe7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>a892215d3c1412107f446b8c6d853fe7</id>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 15:17:36</sys_created_on>
+        <sys_id>2492215d3c1412107f446b8c6d853fea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 15:17:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;All Tasks are completed for&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:bce842ec-7df0-4940-9634-223018fb9c87}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:bce842ec-7df0-4940-9634-223018fb9c87}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Carbon Credit Request Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_bce842ec-7df0-4940-9634-223018fb9c87" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>a892215d3c1412107f446b8c6d853fe7</id>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 15:17:36</sys_created_on>
+        <sys_id>e492215d3c1412107f446b8c6d853fea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 15:17:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.opened_by.first_name}}, all Tasks have been completed for {{Created_1.current.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>a892215d3c1412107f446b8c6d853fe7</id>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 15:17:36</sys_created_on>
+        <sys_id>6c92215d3c1412107f446b8c6d853fe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 15:17:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.opened_by.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a892215d3c1412107f446b8c6d853fe7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a892215d3c1412107f446b8c6d853fe7"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=1b131d113cd012107f446b8c6d853f7d"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=1b131d113cd012107f446b8c6d853f7d^sys_idNOT IN3ce3d1913cd012107f446b8c6d853fb5,42285d593cd012107f446b8c6d853f2a,f73599153cd012107f446b8c6d853f6f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">70e3d1913cd012107f446b8c6d853fb5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="KAP - RFP Process Flow">1b131d113cd012107f446b8c6d853f7d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:13:27</sys_created_on>
+        <sys_id>3ce3d1913cd012107f446b8c6d853fb5</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 15:17:35</sys_updated_on>
+        <ui_id>4b36e238-23a9-49ca-af1f-722581df790b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3ce3d1913cd012107f446b8c6d853fb5"/>
+    <sys_element_mapping action="delete_multiple" query="id=3ce3d1913cd012107f446b8c6d853fb5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>3ce3d1913cd012107f446b8c6d853fb5</id>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:13:27</sys_created_on>
+        <sys_id>fce3d1913cd012107f446b8c6d853fb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:13:27</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{Created_1.current.cc_suppliers}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=3ce3d1913cd012107f446b8c6d853fb5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3ce3d1913cd012107f446b8c6d853fb5"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">86285d593cd012107f446b8c6d853f29</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="KAP - RFP Process Flow">1b131d113cd012107f446b8c6d853f7d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>f2f3cdce-02f4-4de6-aa18-b5a0b0f9cc32</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:32:06</sys_created_on>
+        <sys_id>42285d593cd012107f446b8c6d853f2a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 15:17:36</sys_updated_on>
+        <ui_id>ad5d2eb2-26e6-4f54-be72-633bbe14447f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=42285d593cd012107f446b8c6d853f2a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>42285d593cd012107f446b8c6d853f2a</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:32:06</sys_created_on>
+        <sys_id>8e285d593cd012107f446b8c6d853f2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:32:06</sys_updated_on>
+        <value>1970-01-01 00:00:10</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>42285d593cd012107f446b8c6d853f2a</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:32:06</sys_created_on>
+        <sys_id>c6285d593cd012107f446b8c6d853f2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:32:06</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=42285d593cd012107f446b8c6d853f2a"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=42285d593cd012107f446b8c6d853f2a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=42285d593cd012107f446b8c6d853f2a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">333599153cd012107f446b8c6d853f6f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="KAP - RFP Process Flow">1b131d113cd012107f446b8c6d853f7d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:19:23</sys_created_on>
+        <sys_id>f73599153cd012107f446b8c6d853f6f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 15:17:35</sys_updated_on>
+        <ui_id>f2f3cdce-02f4-4de6-aa18-b5a0b0f9cc32</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f73599153cd012107f446b8c6d853f6f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>f73599153cd012107f446b8c6d853f6f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:19:23</sys_created_on>
+        <sys_id>7f3599153cd012107f446b8c6d853f7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:19:23</sys_updated_on>
+        <value>Check for open tasks</value>
+        <variable display_value="Condition Label">bda2cb0473031300612c273ffff6a750</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f73599153cd012107f446b8c6d853f6f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>f73599153cd012107f446b8c6d853f6f</id>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:22:10</sys_created_on>
+        <sys_id>d8e559553cd012107f446b8c6d853f70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:22:10</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_eaeb040687210300e6c2c88fc0e3ec89</table>
+        <value>{{7be00a61-e261-4168-a08b-079d12fcc075.Count}}&gt;0</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>f73599153cd012107f446b8c6d853f6f</id>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:19:23</sys_created_on>
+        <sys_id>fb3599153cd012107f446b8c6d853f7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:19:23</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_eaeb040687210300e6c2c88fc0e3ec89</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f73599153cd012107f446b8c6d853f6f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f73599153cd012107f446b8c6d853f6f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=1b131d113cd012107f446b8c6d853f7d^sys_idNOT IN010cd1113c1412107f446b8c6d853f76,4d0cd1113c1412107f446b8c6d853f76,890cd1113c1412107f446b8c6d853f76,c50cd1113c1412107f446b8c6d853f76,c9e3d1913cd012107f446b8c6d853fc4,e092215d3c1412107f446b8c6d853fed"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>1b131d113cd012107f446b8c6d853f7d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.opened_by.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:48:58</sys_created_on>
+        <sys_id>010cd1113c1412107f446b8c6d853f76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:48:58</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>95eefd8b-7278-4906-b95d-48f29e60858a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>1b131d113cd012107f446b8c6d853f7d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:48:58</sys_created_on>
+        <sys_id>4d0cd1113c1412107f446b8c6d853f76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:48:58</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>163e6882-a8e5-4f98-9dc5-c229190f8cd3</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>1b131d113cd012107f446b8c6d853f7d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:48:58</sys_created_on>
+        <sys_id>890cd1113c1412107f446b8c6d853f76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:48:58</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>9402e164-37fd-449f-8143-ac4cff68a761</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>1b131d113cd012107f446b8c6d853f7d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:48:58</sys_created_on>
+        <sys_id>c50cd1113c1412107f446b8c6d853f76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:48:58</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5e226818-4cab-4f8a-be7e-1b25ac92b8a2</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>1b131d113cd012107f446b8c6d853f7d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:13:27</sys_created_on>
+        <sys_id>c9e3d1913cd012107f446b8c6d853fc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:13:27</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>684fa6b6-64a2-4eb4-a6e0-408193b01ee6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>1b131d113cd012107f446b8c6d853f7d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 15:17:36</sys_created_on>
+        <sys_id>e092215d3c1412107f446b8c6d853fed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 15:17:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>bce842ec-7df0-4940-9634-223018fb9c87</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=1b131d113cd012107f446b8c6d853f7d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_1b131d113cd012107f446b8c6d853f7d^sys_idNOT IN6143d1513cd012107f446b8c6d853f75,e94311513cd012107f446b8c6d853f87"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1b131d113cd012107f446b8c6d853f7d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:10:47</sys_created_on>
+        <sys_id>6143d1513cd012107f446b8c6d853f75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:10:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1b131d113cd012107f446b8c6d853f7d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:10:46</sys_created_on>
+        <sys_id>e94311513cd012107f446b8c6d853f87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:10:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_1b131d113cd012107f446b8c6d853f7d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_1b131d113cd012107f446b8c6d853f7d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_1b131d113cd012107f446b8c6d853f7d"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=1b131d113cd012107f446b8c6d853f7d"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=1b131d113cd012107f446b8c6d853f7d"/>
+</record_update>

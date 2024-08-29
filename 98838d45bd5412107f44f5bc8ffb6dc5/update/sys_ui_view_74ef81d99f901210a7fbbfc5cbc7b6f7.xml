@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>workspace-carbon-my-requests-0</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>james</sys_created_by>
+        <sys_created_on>2024-08-27 13:56:03</sys_created_on>
+        <sys_id>74ef81d99f901210a7fbbfc5cbc7b6f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace Carbon My Requests 0</sys_name>
+        <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_update_name>sys_ui_view_74ef81d99f901210a7fbbfc5cbc7b6f7</sys_update_name>
+        <sys_updated_by>james</sys_updated_by>
+        <sys_updated_on>2024-08-27 13:56:03</sys_updated_on>
+        <title>Workspace Carbon My Requests 0</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>Notification tray</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>dennis</sys_created_by>
+        <sys_created_on>2024-08-26 21:09:38</sys_created_on>
+        <sys_id>df89690d2e181210713acf59b0ac83aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notification tray</sys_name>
+        <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_update_name>sys_ux_screen_type_df89690d2e181210713acf59b0ac83aa</sys_update_name>
+        <sys_updated_by>dennis</sys_updated_by>
+        <sys_updated_on>2024-08-26 21:09:38</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=df89690d2e181210713acf59b0ac83aa"/>
+</record_update>

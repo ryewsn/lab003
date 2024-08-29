@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>300</order>
+        <search_context_config display_value="Carbon Credit Tracker - Workspace Search">9b89690d6f18121038d82ef1ddf9fbac</search_context_config>
+        <source display_value="Carbon Credit Tracker - x_snc_carbon_cre_0_carbon_">0d992d0dbd1812107f44f5bc8ffb6d10</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>dennis</sys_created_by>
+        <sys_created_on>2024-08-26 21:09:44</sys_created_on>
+        <sys_id>8d992d0dbd1812107f44f5bc8ffb6d12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_8d992d0dbd1812107f44f5bc8ffb6d12</sys_update_name>
+        <sys_updated_by>dennis</sys_updated_by>
+        <sys_updated_on>2024-08-26 21:09:44</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

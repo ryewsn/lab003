@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDdd1059c56b9412105a0c3b0fe1994747</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>98838d45bd5412107f44f5bc8ffb6dc5</scope_name>
+        <serialized_content>{"FlowDesigner:FDdd1059c56b9412105a0c3b0fe1994747":{"code":"String","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"code\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"55cda50a-2603-4078-bb05-b3f42ab28142\"}"},"data":"String","data.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"data\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"c6abe842-3740-4e5c-a88f-0279d15e701d\"}"},"text":"String","text.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"text\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"ee9e4610-34cf-4739-8b64-3a06ea233ea9\"}"},"requestTraceId":"String","requestTraceId.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"requestTraceId\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"537e31ea-6f8b-47cf-97c6-c78953cbea74\"}"}},"FlowDesigner:FDdd1059c56b9412105a0c3b0fe1994747.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"uiUniqueId\":\"de4b2a6f-28f5-4859-8303-c8a91fff1b10\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDdd1059c56b9412105a0c3b0fe1994747\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>ashish</sys_created_by>
+        <sys_created_on>2024-08-26 19:18:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d11059c5bd9412107f44f5bc8ffb6d48</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>FDdd1059c56b9412105a0c3b0fe1994747</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_update_name>sys_complex_object_d11059c5bd9412107f44f5bc8ffb6d48</sys_update_name>
+        <sys_updated_by>ashish</sys_updated_by>
+        <sys_updated_on>2024-08-26 19:23:44</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

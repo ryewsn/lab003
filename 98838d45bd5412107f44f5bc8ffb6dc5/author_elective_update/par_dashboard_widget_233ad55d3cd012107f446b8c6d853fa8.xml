@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">db89690d4b1812102c89b4dbe08553ae</canvas>
+        <component display_value="Image">15fe506403f8a98575b6df59008ea8f1</component>
+        <component_props>{"src":"x_snc_carbon_cre_0.CarbonCreditLogo.jpg","sources":"[]","fit":"fill","position":"center center","alt":"","noDebounce":""}</component_props>
+        <h>3</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>ramesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:41:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>233ad55d3cd012107f446b8c6d853fa8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_update_name>par_dashboard_widget_233ad55d3cd012107f446b8c6d853fa8</sys_update_name>
+        <sys_updated_by>ramesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:41:13</sys_updated_on>
+        <visualization/>
+        <w>3</w>
+        <widget_props/>
+        <x>8</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</application>
+        <file_path/>
+        <instance_id>31cabffb1b4896502a8a6288bd4bcb56</instance_id>
+        <instance_name>van-aug-2897-003</instance_name>
+        <name>par_dashboard_widget_233ad55d3cd012107f446b8c6d853fa8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">db89690d4b1812102c89b4dbe08553ae</canvas><component display_value="Image">15fe506403f8a98575b6df59008ea8f1</component><component_props>{"src":"x_snc_carbon_cre_0.CarbonCreditLogo.jpg","sources":"[]","fit":"fill","position":"center center","alt":"","noDebounce":""}</component_props><h>3</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>ramesh</sys_created_by><sys_created_on>2024-08-27 14:41:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>233ad55d3cd012107f446b8c6d853fa8</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package><sys_policy/><sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope><sys_update_name>par_dashboard_widget_233ad55d3cd012107f446b8c6d853fa8</sys_update_name><sys_updated_by>ramesh</sys_updated_by><sys_updated_on>2024-08-27 14:41:13</sys_updated_on><visualization/><w>3</w><widget_props/><x>8</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1968883037</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>50838d45bd5412107f44f5bc8ffb6dc8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ramesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:41:13</sys_created_on>
+        <sys_id>af3ad55d3cd012107f446b8c6d853fa9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1919448a1320000001</sys_recorded_at>
+        <sys_updated_by>ramesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:41:13</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>e33ad55ddcd01210d7a8722499ae4ea9</update_guid>
+        <update_guid_history>e33ad55ddcd01210d7a8722499ae4ea9:-1968883037</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">de6a1d5d3cd012107f446b8c6d853ff9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ramesh</sys_created_by>
+        <sys_created_on>2024-08-27 14:41:57</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>9301beaaff3b4923ad48fd702d906111</sys_id>
+        <sys_metadata>233ad55d3cd012107f446b8c6d853fa8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_scope_delete display_value="">96e445d61a2c441aad22ffdfe1e92d64</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_233ad55d3cd012107f446b8c6d853fa8</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_233ad55d3cd012107f446b8c6d853fa8">af3ad55d3cd012107f446b8c6d853fa9</sys_update_version>
+        <sys_updated_by>ramesh</sys_updated_by>
+        <sys_updated_on>2024-08-27 14:41:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

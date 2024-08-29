@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="98f701c9bd5412107f44f5bc8ffb6d95" sys_domain="global" table="x_snc_carbon_cre_0_caron_credit_supplier" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>kamalesh</sys_created_by>
+            <sys_created_on>2024-08-26 18:42:46</sys_created_on>
+            <sys_id>50f7c5c9bd5412107f44f5bc8ffb6d7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_carbon_cre_0_caron_credit_supplier" sys_domain="global" view="Default view">98f701c9bd5412107f44f5bc8ffb6d95</sys_ui_section>
+            <sys_updated_by>kamalesh</sys_updated_by>
+            <sys_updated_on>2024-08-26 18:42:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_carbon_cre_0_caron_credit_supplier</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>kamalesh</sys_created_by>
+            <sys_created_on>2024-08-26 18:42:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98f701c9bd5412107f44f5bc8ffb6d95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_carbon_cre_0_caron_credit_supplier</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+            <sys_update_name>sys_ui_section_98f701c9bd5412107f44f5bc8ffb6d95</sys_update_name>
+            <sys_updated_by>kamalesh</sys_updated_by>
+            <sys_updated_on>2024-08-26 18:42:46</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</application>
+        <file_path/>
+        <instance_id>31cabffb1b4896502a8a6288bd4bcb56</instance_id>
+        <instance_name>van-aug-2897-003</instance_name>
+        <name>sys_ui_section_98f701c9bd5412107f44f5bc8ffb6d95</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="98f701c9bd5412107f44f5bc8ffb6d95" sys_domain="global" table="x_snc_carbon_cre_0_caron_credit_supplier" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>kamalesh</sys_created_by><sys_created_on>2024-08-26 18:42:46</sys_created_on><sys_id>50f7c5c9bd5412107f44f5bc8ffb6d7f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_carbon_cre_0_caron_credit_supplier" sys_domain="global" view="Default view">98f701c9bd5412107f44f5bc8ffb6d95</sys_ui_section><sys_updated_by>kamalesh</sys_updated_by><sys_updated_on>2024-08-26 18:42:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_snc_carbon_cre_0_caron_credit_supplier</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>kamalesh</sys_created_by><sys_created_on>2024-08-26 18:42:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>98f701c9bd5412107f44f5bc8ffb6d95</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_carbon_cre_0_caron_credit_supplier</sys_name><sys_overrides/><sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package><sys_policy/><sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope><sys_update_name>sys_ui_section_98f701c9bd5412107f44f5bc8ffb6d95</sys_update_name><sys_updated_by>kamalesh</sys_updated_by><sys_updated_on>2024-08-26 18:42:46</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>270253881</payload_hash>
+        <record_name>Caron Credit Supplier</record_name>
+        <reverted_from/>
+        <source>50838d45bd5412107f44f5bc8ffb6dc8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-26 18:42:46</sys_created_on>
+        <sys_id>dcf7c5c9bd5412107f44f5bc8ffb6d80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1918fff6a830000001</sys_recorded_at>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-26 18:42:46</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>18f7c5c93654121077060b0e90763980</update_guid>
+        <update_guid_history>18f7c5c93654121077060b0e90763980:270253881,d4f701c9f95412103ea981f11ab61698:2056452185</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kamalesh</sys_created_by>
+        <sys_created_on>2024-08-26 19:00:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>770f1fa6070e47dfad03ae79a7845e01</sys_id>
+        <sys_metadata>98f701c9bd5412107f44f5bc8ffb6d95</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_carbon_cre_0_caron_credit_supplier</sys_name>
+        <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+        <sys_parent display_value="">43e785c9bd5412107f44f5bc8ffb6d9f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_scope_delete display_value="">96e445d61a2c441aad22ffdfe1e92d64</sys_scope_delete>
+        <sys_update_name>sys_ui_section_98f701c9bd5412107f44f5bc8ffb6d95</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_98f701c9bd5412107f44f5bc8ffb6d95">dcf7c5c9bd5412107f44f5bc8ffb6d80</sys_update_version>
+        <sys_updated_by>kamalesh</sys_updated_by>
+        <sys_updated_on>2024-08-26 19:00:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

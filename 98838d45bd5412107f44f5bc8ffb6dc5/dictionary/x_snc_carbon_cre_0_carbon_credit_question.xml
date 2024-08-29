@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="c51fd90dbdd412107f44f5bc8ffb6db6" extends="task" label="Carbon Credit Question" max_length="40" name="x_snc_carbon_cre_0_carbon_credit_question" type="collection">
+        <element label="Assigned To" max_length="32" name="assigned_t0" reference="sys_user" type="reference"/>
+        <element label="CC Request ID" max_length="32" name="cc_request_id" reference="x_snc_carbon_cre_0_carbon_credit_request" type="reference"/>
+        <element label="CC Supplier ID" max_length="32" name="cc_supplier_id" reference="x_snc_carbon_cre_0_carbon_credit_request" type="reference"/>
+        <element label="Credit Type" max_length="40" name="credit_type" type="string"/>
+        <element label="JPMC Client" max_length="40" name="jpmc_client" type="string"/>
+        <element label="JPMC Token" max_length="2000" name="jpmc_token" type="string"/>
+        <element label="Organization role" max_length="40" name="organization_role" type="string"/>
+        <element label="Price ($)" max_length="40" name="price" type="currency"/>
+        <element label="Project Country" max_length="40" name="project_country" type="string"/>
+        <element label="Project Type" max_length="40" name="project_type" type="string"/>
+        <element label="Registry" max_length="40" name="registry" type="string"/>
+        <element label="Score" max_length="40" name="score" type="integer"/>
+        <element label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+                <element inactive_on_update="false" label="Completed" sequence="1" value="completed"/>
+                <element inactive_on_update="false" label="Reopen" sequence="2" value="reopen"/>
+            </choice>
+        </element>
+        <element label="Total Cost ($)" max_length="40" name="total_cost" type="currency"/>
+        <element label="Total Volume Contracted" max_length="40" name="total_volume_contracted" type="integer"/>
+    </element>
+</database>

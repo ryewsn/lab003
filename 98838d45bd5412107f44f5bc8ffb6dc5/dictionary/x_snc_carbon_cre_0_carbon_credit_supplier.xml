@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bc4cc941bd9412107f44f5bc8ffb6d73" label="Carbon Credit Supplier" max_length="40" name="x_snc_carbon_cre_0_carbon_credit_supplier" type="collection">
+        <element label="Contact" max_length="40" name="contact" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Supplier ID" max_length="40" name="number" type="string"/>
+        <element label="User ID" max_length="32" name="user_id" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user_id"/>
+        </index>
+    </element>
+</database>

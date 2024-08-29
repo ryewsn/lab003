@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>dennis</sys_created_by>
+        <sys_created_on>2024-08-26 21:09:43</sys_created_on>
+        <sys_id>b099e90dbd1812107f44f5bc8ffb6db3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>now.carbon-credit-tracker.*.x_snc_carbon_cre_0.reviewer</sys_name>
+        <sys_package display_value="Carbon Credit Tracker" source="x_snc_carbon_cre_0">98838d45bd5412107f44f5bc8ffb6dc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Carbon Credit Tracker">98838d45bd5412107f44f5bc8ffb6dc5</sys_scope>
+        <sys_security_acl display_value="now.carbon-credit-tracker.*">5389690da218121097153faf4a5b1cac</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_b099e90dbd1812107f44f5bc8ffb6db3</sys_update_name>
+        <sys_updated_by>dennis</sys_updated_by>
+        <sys_updated_on>2024-08-26 21:09:43</sys_updated_on>
+        <sys_user_role display_value="x_snc_carbon_cre_0.reviewer" name="x_snc_carbon_cre_0.reviewer">23a7cd89bd5412107f44f5bc8ffb6d5c</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
